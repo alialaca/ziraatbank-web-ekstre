@@ -1,0 +1,34 @@
+{
+  "name": "ziraatbank-web-ekstre",
+  "version": "0.1.0",
+  "description": "Ziraat Bankası hesap harketlerini json olarak elde etmenizi sağlar.",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "ziraat",
+    "ziraatbank",
+    "ekstre",
+    "web ekstre",
+    "hesap hareket"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ali Alaca <ali-alaca@hotmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alialaca/ziraatbank-web-ekstre"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "easy-soap-request": "^4.7.0",
+    "fast-xml-parser": "^4.0.7"
+  }
+}
