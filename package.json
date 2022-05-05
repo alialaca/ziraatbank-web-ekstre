@@ -1,6 +1,6 @@
 {
   "name": "ziraatbank-web-ekstre",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Ziraat Bankası hesap harketlerini json olarak elde etmenizi sağlar.",
   "main": "lib/index.js",
   "files": [
