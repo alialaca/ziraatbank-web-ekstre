@@ -14,7 +14,8 @@
     "hesap hareket"
   ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "commit": "cz"
   },
   "author": "Ali Alaca <ali-alaca@hotmail.com>",
   "license": "ISC",
@@ -23,6 +24,7 @@
     "url": "https://github.com/alialaca/ziraatbank-web-ekstre"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
     "dotenv": "^16.0.0",
     "jest": "^27.5.1"
   },
@@ -30,5 +32,10 @@
     "axios": "^0.26.1",
     "easy-soap-request": "^4.7.0",
     "fast-xml-parser": "^4.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
